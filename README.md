@@ -52,7 +52,7 @@ they were built from (`pigz-static-sources.tar.gz`).
 
 To update a vendored project, check out a new release tag in its submodule, commit it, and update
 `VERSION` if it is the main one, e.g.
-`git -C vendor/pigz fetch --depth 1 origin tag v2.8 && git -C vendor/pigz checkout v2.8`.
+`git -C vendor/pigz fetch --depth 1 origin tag v2.7 && git -C vendor/pigz checkout v2.7`.
 
 ## Acknowledgments
 
