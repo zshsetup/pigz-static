@@ -1,0 +1,21 @@
+The code in this repository (build.sh, tests/, README.md) is licensed under the MIT License;
+see LICENSE.
+
+The pigz binaries produced by build.sh and published under GitHub Releases embed or are built
+from the following third-party projects, vendored unmodified as git submodules under vendor/ at
+their release tags. Each keeps its own license, and the binaries are governed by the licenses of
+these projects, not by the MIT License above.
+
+pigz
+  https://github.com/madler/pigz
+  Copyright (c) Mark Adler
+  License: zlib license
+
+zlib
+  https://github.com/madler/zlib
+  Copyright (c) Jean-loup Gailly and Mark Adler
+  License: zlib license
+
+Anyone who redistributes these binaries (including the release archives from this repo) must
+satisfy these licenses, such as keeping their notices attached. The release workflow attaches the
+exact vendored sources used for the build (pigz-static-sources.tar.gz) to every release.
