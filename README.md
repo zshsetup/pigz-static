@@ -29,7 +29,7 @@ cd pigz-static
 
 Output is installed under `dist/`:
 
-- `dist/bin/pigz`, `dist/bin/unpigz`: the binary and a copy that decompresses by default;
+- `dist/bin/pigz`, `dist/bin/unpigz`: the binary and a symlink to it that decompresses by default;
   copy them anywhere on your `PATH`
 - `dist/share/man/man1/pigz.1`: the man page
 

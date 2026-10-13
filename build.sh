@@ -114,8 +114,8 @@ echo ">>> pigz"
   rm -rf "$DIST"
   mkdir -p "$DIST/bin" "$DIST/share/man/man1"
   cp pigz "$DIST/bin/pigz"
-  # pigz decompresses when it is run as unpigz
-  cp pigz "$DIST/bin/unpigz"
+  # pigz decompresses when it is run as unpigz, so it is a symlink
+  ln -s pigz "$DIST/bin/unpigz"
   cp pigz.1 "$DIST/share/man/man1/pigz.1"
 )
 
